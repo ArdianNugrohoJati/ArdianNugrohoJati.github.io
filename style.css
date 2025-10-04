@@ -1,0 +1,111 @@
+/* 8. HTML Font */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    /* 6. HTML Background/Color Text */
+    background-color: #f0f0f5; /* Light Lavender Background */
+    color: #333; /* Dark Text Color */
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: #4a4e69; /* Dark Blue Header */
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+header h2 {
+    font-weight: 300;
+    font-size: 1.2em;
+    color: #ccc;
+}
+
+.profile {
+    /* 7. HTML Align: Centering konten profil */
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Membuat gambar bundar */
+    object-fit: cover;
+    border: 5px solid #77aaff; /* Border biru Telkom University */
+    margin-bottom: 15px;
+}
+
+.contact-info {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    margin: 0 15px;
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.2); /* Efek zoom saat hover */
+}
+
+/* 10. HTML Table Styling */
+.education {
+    padding: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4a4e69;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+.profile-img {
+    width: 150px;       /* Mengatur lebar foto */
+    height: 150px;      /* Mengatur tinggi foto */
+    border-radius: 50%; /* Membuat foto menjadi bulat */
+    object-fit: cover;
+    border: 5px solid #77aaff; 
+    margin-bottom: 15px;
+}
